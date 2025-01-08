@@ -2,23 +2,18 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
+        title: '#SakHar',
+        url: 'https://harshtuwar.vercel.app',
+        description: 'Custom invitation for the marraige of Harsh and Sakshi ❤️',
         locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        keywords: 'harsh, sakshi, harshtuwar, sakshilimbachiya, sakhar, marraige',
         images: [
             {
                 width: 1200,
                 height: 630,
-                url: `https://vjy.me/preview.jpg`,
+                url: `/assets/Harsh_Sakshi_Logo-removebg-preview.png`,
             },
         ],
         site_name: 'realvjy',
-    },
-    twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
-        cardType: 'summary_large_image',
-    },
+    }
 };

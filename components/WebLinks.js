@@ -18,6 +18,7 @@ const Links = () => {
   const name = bioData[0].name;
   const url = bioData[0].url;
   const username = bioData[0].username;
+  const subusername = bioData[0].subusername;
   const titleImg = bioData[0].titleImg;
   const avatarImg = bioData[0].avatar;
   const description = bioData[0].description;
@@ -27,7 +28,7 @@ const Links = () => {
   const footerText = bioData[0].footerText;
   const author = bioData[0].author;
   const authorURL = bioData[0].authorURL;
-  const titleImage = "/title.svg";
+  const titleImage = "/assets/name-with-bg-removebg-preview.png";
 
   // Check what class to use oval or hex for avatar
   const avatarShape = bioData[0].nftAvatar ? `nft-clipped` : `oval-clipped`
@@ -70,7 +71,7 @@ const Links = () => {
           <TopPart>
             <LinkHeader>
               <Avatar>
-                <AvatarWrap>
+                <AvatarWrap >
                   {/* Avatar svg  hex or oval if nftAvatar=true will convert to hex */}
                   <HexIcon />
                   <OvalIcon />
@@ -91,7 +92,12 @@ const Links = () => {
                 {/* if your remove username from data it will not appear */}
                 {
                   username ? <h3><a href={`${url}`}>{username}</a></h3> : ''
-                }
+              }
+
+              {/* if your remove subusername from data it will not appear */}
+              {
+                subusername ? <h3><a href={`${url}`}>{subusername}</a></h3> : ''
+              }
               </Title>
             </LinkHeader>
 
@@ -126,7 +132,7 @@ const Links = () => {
               {
                 install.length > 0 ?
                     <LinkSection>
-                      <h3>{install[0].type}</h3>
+                      {/* <h3>{install[0].type}</h3> */}
                       {
                         install.map((i) => {
                           return (
@@ -200,7 +206,7 @@ const Links = () => {
           </TopPart>
           <BottomPart>
             <LinkFoot>
-              <h4>{footerText} <a href={authorURL}>{author}</a></h4>
+              <h4>{footerText} <a target="_blank" rel="noopener noreferrer" href={authorURL}>{author}</a></h4>
             </LinkFoot>
           </BottomPart>
 
@@ -305,6 +311,7 @@ const Title = styled.div`
       height: 32px;
       margin-top: 6px;
       margin-bottom: 6px;
+      transform: scale(8);
       @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
         height: 26px;
       }
