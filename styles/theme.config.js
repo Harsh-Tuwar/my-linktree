@@ -27,27 +27,49 @@ const light = {
 
 const dark = {
     bg: {
-        primary: `var(--black)`,
-        secondary: `var(--light-white)`,
-        tertiary: 'rgba(255,255,255,0.03)',
-        border: "#EAEAEA",
-        inset: '#111111',
-        input: 'rgba(191,193,201,0.12)',
-        hover: 'linear-gradient(270deg, #131628 0%, #27141C 100%);',
+        primary: '#3E1C78', // Royal purple for a regal and rich base
+        secondary: '#1E3A8A', // Deep royal blue for a contrasting yet harmonious tone
+        tertiary: '#EDE7F6', // Soft lavender white for subtle accents
+        border: '#8E24AA', // Vibrant magenta-purple for decorative highlights
+        inset: '#0D1B45', // Midnight blue for depth and richness
+        input: '#D1C4E9', // Muted lavender for input fields
+        hover: 'linear-gradient(90deg, #512DA8 0%, #1E3A8A 100%)', // A gradient blending royal purple and blue
     },
     text: {
-        primary: `var(--white20)`,
-        secondary: 'rgba(255,255,255,0.3)',
-        tertiary: '#a9abb6',
-        quarternary: '#6c6f7e',
-        placeholder: 'rgba(145,148,161,0.5)',
-        onPrimary: '#050505',
+        primary: '#EDE7F6', // Soft lavender white for primary text
+        secondary: '#B39DDB', // Subtle light purple for secondary text
+        tertiary: '#FFFFFF', // Pure white for crisp contrast
+        quarternary: '#FFD700', // Gold for accents and decorative elements
+        placeholder: '#BB86FC', // Light purple-pink for placeholders
+        onPrimary: '#0D1B45', // Midnight blue for text on light backgrounds
     },
     img: {
         filter: 'invert(1)'
     },
-    // ...
 }
+// const dark = {
+//     bg: {
+//         primary: `var(--black)`,
+//         secondary: `var(--light-white)`,
+//         tertiary: 'rgba(255,255,255,0.03)',
+//         border: "#EAEAEA",
+//         inset: '#111111',
+//         input: 'rgba(191,193,201,0.12)',
+//         hover: 'linear-gradient(270deg, #131628 0%, #27141C 100%);',
+//     },
+//     text: {
+//         primary: `var(--white20)`,
+//         secondary: 'rgba(255,255,255,0.3)',
+//         tertiary: '#a9abb6',
+//         quarternary: '#6c6f7e',
+//         placeholder: 'rgba(145,148,161,0.5)',
+//         onPrimary: '#050505',
+//     },
+    // img: {
+    //     filter: 'invert(1)'
+    // },
+//     // ...
+// }
 
 const defaultTheme = {
     fontSizes: [
