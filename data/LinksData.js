@@ -107,39 +107,53 @@ const webLinks = [
     //     on: false
     // },
     // Install section
+    // {
+    //     title: 'Meet Bride and Groom',
+    //     url: 'https://github.com/realvjy/nxt-lnk/generate',
+    //     type: 'install',
+    //     icon: '/couple-silhout.svg',
+    //     on: true
+    // },
     {
-        title: 'Meet Bride and Groom',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
-        type: 'install',
-        icon: '/couple-silhout.svg',
-        on: true
-    },
-    {
-        title: 'Murhats',
-        url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
+        title: 'Wedding Invitation',
+        url: 'https://www.canva.com/design/DAGboPY8FJQ/zBrX4rNs7BKY47UaNzXU5w/watch?utm_content=DAGboPY8FJQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h18764931dd',
         type: 'install',
         icon: '/vercel.svg',
         on: true
     },
     {
-        title: 'Location',
+        title: 'Varshala Address',
         url: 'https://maps.app.goo.gl/fHMczrvsNU3wiyLg8',
         type: 'install',
-        icon: '/maps-2.svg',
+        icon: '/assets/lagan-ghar.png',
         on: true
     },
     {
-        title: 'Lagan Location',
+        title: 'Vivah Mandap Address',
         url: 'https://maps.app.goo.gl/Nt5GbFbMJqycC7VT6',
         type: 'install',
-        icon: '/maps-2.svg',
+        icon: '/assets/kalash-pic.png',
         on: true
     },
     {
-        title: 'Reception Location',
+        title: `Reception Address`,
         url: 'https://maps.app.goo.gl/maxTu5zkLNDNnfwk9',
         type: 'install',
         icon: '/maps-2.svg',
+        on: true
+    },
+    {
+        title: `Contact Ushaben Tuwar`,
+        url: 'tel:+919427961507',
+        type: 'install',
+        icon: '/assets/contact.png',
+        on: true
+    },
+    {
+        title: `Contact Dr. J. M. Tuwar`,
+        url: 'tel:+919099950363',
+        type: 'install',
+        icon: '/assets/contact.png',
         on: true
     }
 ];

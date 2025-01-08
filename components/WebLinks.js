@@ -311,7 +311,7 @@ const Title = styled.div`
       height: 32px;
       margin-top: 6px;
       margin-bottom: 6px;
-      transform: scale(8);
+      transform: scale(6);
       @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
         height: 26px;
       }
