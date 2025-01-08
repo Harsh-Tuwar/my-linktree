@@ -2,7 +2,7 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: '#SakHar',
+        title: 'Harsh Weds Sakshi',
         url: 'https://harshtuwar.vercel.app',
         description: 'Custom invitation for the marraige of Harsh and Sakshi ❤️',
         locale: 'en_EN',
