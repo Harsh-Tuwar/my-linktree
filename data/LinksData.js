@@ -116,7 +116,8 @@ const webLinks = [
     // },
     {
         title: 'Wedding Invitation',
-        url: 'https://www.canva.com/design/DAGboPY8FJQ/zBrX4rNs7BKY47UaNzXU5w/watch?utm_content=DAGboPY8FJQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h18764931dd',
+        // url: 'https://www.canva.com/design/DAGboPY8FJQ/zBrX4rNs7BKY47UaNzXU5w/watch?utm_content=DAGboPY8FJQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h18764931dd',
+        url: 'https://drive.google.com/file/d/1gMWhVTDOpVgipXHKZOdvFG2WGkMXKI14/view?usp=sharing',
         type: 'install',
         icon: '/assets/heart.png',
         on: true
