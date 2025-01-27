@@ -112,7 +112,7 @@ const webLinks = [
         url: '/meet-bride-groom',
         type: 'install',
         icon: '/couple-silhout.svg',
-        on: true
+        on: false
     },
     {
         title: 'Wedding Invitation',
