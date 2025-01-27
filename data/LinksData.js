@@ -107,13 +107,13 @@ const webLinks = [
     //     on: false
     // },
     // Install section
-    // {
-    //     title: 'Meet Bride and Groom',
-    //     url: 'https://github.com/realvjy/nxt-lnk/generate',
-    //     type: 'install',
-    //     icon: '/couple-silhout.svg',
-    //     on: true
-    // },
+    {
+        title: 'Meet Bride and Groom',
+        url: '/meet-bride-groom',
+        type: 'install',
+        icon: '/couple-silhout.svg',
+        on: true
+    },
     {
         title: 'Wedding Invitation',
         // url: 'https://www.canva.com/design/DAGboPY8FJQ/zBrX4rNs7BKY47UaNzXU5w/watch?utm_content=DAGboPY8FJQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h18764931dd',

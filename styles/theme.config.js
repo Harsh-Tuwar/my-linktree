@@ -27,25 +27,25 @@ const light = {
 
 const dark = {
     bg: {
-        primary: '#3E1C78', // Royal purple for a regal and rich base
-        secondary: '#1E3A8A', // Deep royal blue for a contrasting yet harmonious tone
-        tertiary: '#EDE7F6', // Soft lavender white for subtle accents
-        border: '#8E24AA', // Vibrant magenta-purple for decorative highlights
-        inset: '#0D1B45', // Midnight blue for depth and richness
-        input: '#D1C4E9', // Muted lavender for input fields
-        hover: 'linear-gradient(90deg, #512DA8 0%, #1E3A8A 100%)', // A gradient blending royal purple and blue
+        primary: '#800080', // Purple for a rich base
+        secondary: '#FF00FF', // Magenta for vibrant highlights
+        tertiary: '#F5F5F5', // White Smoke for subtle accents
+        border: '#4B0082', // Indigo for borders
+        inset: '#2E0854', // Dark Purple for depth
+        input: '#E6E6FA', // Lavender for input fields
+        hover: 'linear-gradient(90deg, #800080 0%, #FF00FF 100%)', // Gradient blending purple and magenta
     },
     text: {
-        primary: '#EDE7F6', // Soft lavender white for primary text
-        secondary: '#B39DDB', // Subtle light purple for secondary text
+        primary: '#F5F5F5', // White Smoke for primary text
+        secondary: '#E6E6FA', // Lavender for secondary text
         tertiary: '#FFFFFF', // Pure white for crisp contrast
-        quarternary: '#FFD700', // Gold for accents and decorative elements
-        placeholder: '#BB86FC', // Light purple-pink for placeholders
-        onPrimary: '#0D1B45', // Midnight blue for text on light backgrounds
+        quarternary: '#FF00FF', // Magenta for accents
+        placeholder: '#DA70D6', // Orchid for placeholders
+        onPrimary: '#2E0854', // Dark Purple for text on light backgrounds
     },
     img: {
         filter: 'invert(1)'
-    },
+    }
 }
 // const dark = {
 //     bg: {
